@@ -60,6 +60,14 @@ class Car {
         */
         this.color = color;
     }
+
+        /* 
+    This method describes an action a Car can perform.
+    It uses "this" to access the current Car's data.
+    */
+    describe() {
+        return `This car is a ${this.color} ${this.make} ${this.model}.`;
+    }
 }
 
 /* 
@@ -76,3 +84,9 @@ const car2 = new Car('Honda', 'Civic', 'Red');
 
 console.log(car1);
 console.log(car2);
+
+console.log(car1.describe());
+console.log(car2.describe());
+
+
+
