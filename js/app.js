@@ -14,3 +14,6 @@ Object = thing created from the class (real)
 One class → many objects
 */
 
+class Car {
+    /* This class describes what a Car is */
+}
